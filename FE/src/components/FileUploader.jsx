@@ -2,7 +2,7 @@ import { useState } from "react";
 import {
   requestUploadPresignedUrl,
   uploadFileToS3,
-} from "../services/api";
+} from "../api/fileApi";
 
 const FileUploader = () => {
   const [file, setFile] = useState(null);

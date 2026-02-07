@@ -1,5 +1,5 @@
 import { useEffect, useState } from "react";
-import { fetchFileList } from "../services/api";
+import { fetchFileList } from "../api/fileApi";
 import { useNavigate } from "react-router-dom";
 
 const FileList = () => {
